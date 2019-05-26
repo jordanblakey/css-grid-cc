@@ -1,0 +1,12 @@
+{
+  "name": "css-grid-cc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.5"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser"
+  }
+}
